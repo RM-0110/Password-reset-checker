@@ -14,9 +14,9 @@ from email.mime.text import MIMEText
 from contextlib import redirect_stdout
 
 receiver_list = [
-    "kirana@navyatech.in"
-    # "armugam@navyatech.in",
-    # "pushpa@navyatech.in"
+    "kirana@navyatech.in",
+    "armugam@navyatech.in",
+    "pushpa@navyatech.in"
 ]
 
 # -----------------------
