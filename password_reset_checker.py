@@ -178,7 +178,7 @@ local_time = datetime.now(ZoneInfo("Asia/Kolkata")).strftime("%Y-%m-%d %H:%M:%S 
 
 if success:
 
-    subject = "Password reset on Vyas tested succesfully"
+    subject = "Password reset on Vyas dev tested succesfully"
 
     body = f"""password reset script ran on {local_time} and passed for user riddhimann_automation.
 
@@ -187,7 +187,7 @@ if success:
 
 else:
 
-    subject = "FAILURE! Password reset on vyas "
+    subject = "FAILURE! Password reset on vyas dev"
 
     body = f"""password reset script ran on {local_time} and failed for user riddhimann_automation.
 
