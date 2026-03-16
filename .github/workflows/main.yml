@@ -23,6 +23,6 @@ jobs:
 
       - name: Run reset_password_checker.py script
         run: |
-          python reset_password_checker.py
+          python password_reset_checker.py
         env:
           APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
