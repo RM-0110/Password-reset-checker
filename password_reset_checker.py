@@ -14,9 +14,9 @@ from email.mime.text import MIMEText
 from contextlib import redirect_stdout
 
 receiver_list = [
-    "kirana@navyatech.in",
-    "armugam@navyatech.in",
-    "pushpa@navyatech.in"
+    "kirana@navya.care",
+    "armugam@navya.care",
+    "pushpa@navya.care"
 ]
 
 # -----------------------
@@ -24,7 +24,7 @@ receiver_list = [
 # -----------------------
 
 def send_email(email, subject, body):
-    sender_email = "riddhimann@navyatech.in"
+    sender_email = "riddhimann@navya.care"
     password = os.getenv('APP_PASSWORD')
 
     msg = MIMEMultipart()
