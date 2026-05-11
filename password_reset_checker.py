@@ -58,7 +58,7 @@ with redirect_stdout(log_buffer):
     try:
 
         USERNAME = "riddhimann_automation"
-        EMAIL_USER = "riddhimann@navyatech.in"
+        EMAIL_USER = "riddhimann@navya.care"
         EMAIL_PASS = os.getenv('APP_PASSWORD')
 
         FORGOT_API = "https://alpha.bestopinions.us/alphaBackend/accounts/password/forgot/"
@@ -194,4 +194,4 @@ else:
 {logs}
 """
 
-send_email("riddhimann@navyatech.in", subject, body)
+send_email("riddhimann@navya.care", subject, body)
