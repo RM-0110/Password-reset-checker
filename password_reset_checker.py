@@ -14,9 +14,10 @@ from email.mime.text import MIMEText
 from contextlib import redirect_stdout
 
 receiver_list = [
-    "kirana@navya.care",
-    "armugam@navya.care",
-    "pushpa@navya.care"
+    "riddhimann@navya.care"
+    # "kirana@navya.care",
+    # "armugam@navya.care",
+    # "pushpa@navya.care"
 ]
 
 # -----------------------
@@ -121,6 +122,7 @@ with redirect_stdout(log_buffer):
             body = msg.get_payload(decode=True).decode()
 
         print("Email body received")
+        print(body)
 
         url_match = re.search(r"https://experts\.bestopinions\.us/resetpassword\?[^ \n]+", body)
 
