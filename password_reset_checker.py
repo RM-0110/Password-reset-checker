@@ -91,7 +91,7 @@ with redirect_stdout(log_buffer):
 
         print("Waiting for email...")
 
-        time.sleep(10)
+        time.sleep(20)
 
         mail = imaplib.IMAP4_SSL("imap.gmail.com")
         mail.login(EMAIL_USER, EMAIL_PASS)
